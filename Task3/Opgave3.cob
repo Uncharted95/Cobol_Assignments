@@ -9,6 +9,13 @@
        01  Navn                    PIC X(40) VALUE SPACES.
        01  Kontonummer             PIC X(20) VALUE SPACES.
        01  Valutakode              PIC X(3) VALUE SPACES. 
+       
+       01  Indeksvariabel(IX:1)
+       01  IndexO(IX2)
+       01  CURRENT-CHAR
+       01  PREVIOUS-CHAR
+       01  Outputvariabel
+
 
        PROCEDURE DIVISION.
        MOVE "Alexander" TO Fornavn
