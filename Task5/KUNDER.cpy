@@ -2,11 +2,8 @@
            02  Fornavn                 PIC X(20) VALUE SPACES.
            02  Efternavn               PIC X(20) VALUE SPACES.
            02  Navn                    PIC X(40) VALUE SPACES.
-
-
            02  Kontonummer             PIC X(20) VALUE SPACES.
            02  Valutakode              PIC X(3)  VALUE SPACES.
-
            02  Balance-linje           PIC X(25) VALUE SPACES.
 
        02 ADDRESSE.
@@ -19,4 +16,6 @@
            03 LANDE-KODE               PIC X(2).
 
        02 
-           
+           03 TELEFON                  PIC X(8).
+           03 EMAIL                    PIC X(50).
+ 
